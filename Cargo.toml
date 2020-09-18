@@ -1,0 +1,15 @@
+[package]
+name = "nnftp"
+version = "0.1.0"
+authors = ["Matias Kotlik <mdkotlik@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "3.0.0-beta.1"
+futures = "0.3"
+async-std = "1"
+url = "2.1.1"
+anyhow = "1.0.32"
+thiserror = "1.0.20"
+log = "0.4.11"
+simplelog = "0.8.0"
